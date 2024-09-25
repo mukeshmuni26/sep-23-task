@@ -16,7 +16,7 @@ pipeline {
      stage('execute') {
            steps {
                    echo " executing the build to get the output for maven project"
-                   sh 'java -jar target/MavenProject-0.0.2-SNAPSHOT.jar'
+                   sh 'java -jar target/MavenProject-0.0.2-SNAPSHOT.jar'
        }
     }
   }
