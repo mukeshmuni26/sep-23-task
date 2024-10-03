@@ -2,7 +2,7 @@ pipeline {
   agent any 
      stages {
           stage('validation') {    
-               steps { 
+               steps {  
                         echo "checking for 'pom.xml' file for maven project"   
                         sh ' mvn validate'
        }
