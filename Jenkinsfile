@@ -3,7 +3,7 @@ pipeline {
      stages {
           stage('validation') {    
                steps { 
-                        echo "checking for 'pom.xml' file for maven project"
+                        echo "checking for 'pom.xml' file for maven project"   
                         sh ' mvn validate'
        }
    }
